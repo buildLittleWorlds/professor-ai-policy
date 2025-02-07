@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Pedagogy & Copyright Law | Prof. Sarah Chen's Blog</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.7;
+            color: #2b2b2b;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-container {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(auto, 750px) 250px minmax(0, 1fr);
+            gap: 2rem;
+            padding: 0 1rem;
+        }
+
+        header {
+            grid-column: 1 / -1;
+            background: #1d3557;
+            color: #fff;
+            padding: 2rem 0;
+            border-bottom: 5px solid #457b9d;
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .site-title {
+            font-family: 'Baskerville', Georgia, serif;
+            font-size: 1.8rem;
+            font-weight: normal;
+            margin-bottom: 0.5rem;
+        }
+
+        .site-subtitle {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 1rem;
+            color: #a8dadc;
+            font-weight: 300;
+        }
+
+        main {
+            grid-column: 2 / 3;
+            padding: 2rem 0;
+        }
+
+        aside {
+            grid-column: 3 / 4;
+            padding: 2rem 0;
+        }
+
+        article {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-left: 3px solid #457b9d;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .article-title {
+            font-family: 'Baskerville', Georgia, serif;
+            font-size: 1.6rem;
+            color: #1d3557;
+            margin-bottom: 1rem;
+        }
+
+        .metadata {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .references {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e9ecef;
+        }
+
+        .references h3 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #457b9d;
+            margin-bottom: 1rem;
+        }
+
+        .references ul {
+            list-style-type: none;
+            font-size: 0.9rem;
+        }
+
+        .references li {
+            margin-bottom: 0.8rem;
+            padding-left: 1rem;
+            border-left: 2px solid #457b9d;
+        }
+
+        blockquote {
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 3px solid #457b9d;
+            background: #f8f9fa;
+            font-style: italic;
+        }
+
+        .footnotes {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 1000px) {
+            .page-container {
+                grid-template-columns: 1fr;
+            }
+
+            main, aside {
+                grid-column: 1 / -1;
+                padding: 1rem;
+            }
+
+            .references {
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="site-title">Digital Pedagogy & Copyright Law</h1>
+            <div class="site-subtitle">Professor Sarah Chen, Ph.D. | Department of Writing & Rhetoric</div>
+        </div>
+    </header>
+
+    <div class="page-container">
+        <main>
+            <article>
+                <h2 class="article-title">Navigating AI Integration in the Contemporary Writing Classroom</h2>
+                <div class="metadata">
+                    Published February 7, 2025 | Academic Policy, Teaching Practice
+                </div>
+                <p>In light of recent developments in AI-assisted writing technologies, it becomes increasingly vital to establish clear pedagogical frameworks that both acknowledge these tools and maintain academic integrity...</p>
+                <blockquote>
+                    "The question is not whether students will use AI writing tools, but how we can guide them toward responsible and educational use of these emerging technologies."
+                </blockquote>
+                <p>Drawing from recent classroom experiences, I propose a three-tiered approach to AI integration...</p>
+                <div class="footnotes">
+                    <ol>
+                        <li>Copyright Office Guidance, 2024</li>
+                        <li>Chen & Martinez, "Digital Writing Pedagogies," 2024</li>
+                    </ol>
+                </div>
+            </article>
+        </main>
+
+        <aside>
+            <div class="references">
+                <h3>Recent Developments</h3>
+                <ul>
+                    <li>Response to "The Hard-Boiled Writer" on AI disclosure requirements</li>
+                    <li>New Copyright Office Guidelines Analysis</li>
+                    <li>Department AI Policy Update</li>
+                </ul>
+            </div>
+            <div class="references">
+                <h3>Current Research</h3>
+                <ul>
+                    <li>AI Integration in First-Year Composition</li>
+                    <li>Pedagogical Approaches to ChatGPT</li>
+                    <li>Copyright Law in Digital Education</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
